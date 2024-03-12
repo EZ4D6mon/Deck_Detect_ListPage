@@ -1,5 +1,11 @@
+
 .App {
   text-align: center;
+  /* Set the background image */
+  background-image: url('../public/background\ image.jpeg');
+  background-size: cover; /* Cover the entire page */
+  background-position: center; /* Center the background image */
+  min-height: 100vh; /* Make sure it covers the full view height */
 }
 
 .App-logo {
