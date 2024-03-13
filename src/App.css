@@ -5,7 +5,9 @@
   background-image: url('../public/background\ image.jpeg');
   background-size: cover; /* Cover the entire page */
   background-position: center; /* Center the background image */
-  min-height: 100vh; /* Make sure it covers the full view height */
+  background-attachment: fixed;
+  min-height: 200vh; /* Make sure it covers the full view height */
+  max-height: auto;
 }
 
 .App-logo {
