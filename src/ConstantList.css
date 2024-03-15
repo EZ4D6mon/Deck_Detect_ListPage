@@ -1,0 +1,7 @@
+.Userlist {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100vh; /* This makes the app fill the entire height of the viewport */
+    text-align: center; /* This centers the text elements inside the div */
+  }
