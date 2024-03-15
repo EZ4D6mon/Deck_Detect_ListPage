@@ -1,0 +1,7 @@
+.Listdisplay {
+  display: flex;
+  /*justify-content: center; !* Center horizontally *!*/
+  align-items: center; /* Center vertically if needed */
+  flex-direction: column; /* Stack children vertically */
+  /*min-height: 100vh; !* Optional: Ensure it takes at least the viewport height *!*/
+}
