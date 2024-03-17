@@ -2,7 +2,9 @@
 .App {
   text-align: center;
   /* Set the background image */
-  background-image: url('../public/background\ image.jpeg');
+  /*  background-color: #F3E5F5; !* Light purple color *!*/
+
+  background-image: url('../public/back4.jpg');
   background-size: cover; /* Cover the entire page */
   background-position: center; /* Center the background image */
   background-attachment: fixed;

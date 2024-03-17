@@ -1,7 +1,18 @@
-.Listdisplay {
+@font-face {
+  font-family: 'Thuast';
+  src: url('/public/Thuast.otf') format('opentype');
+}
+
+.ListDisplay {
   display: flex;
   /*justify-content: center; !* Center horizontally *!*/
   align-items: center; /* Center vertically if needed */
   flex-direction: column; /* Stack children vertically */
   /*min-height: 100vh; !* Optional: Ensure it takes at least the viewport height *!*/
+}
+
+.deck-detect {
+  font-family: 'Thuast', sans-serif;
+  color: #7000FF; /* Color code for the font */
+  /* Add any other styles as needed */
 }
